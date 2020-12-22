@@ -1,0 +1,9 @@
+.background{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 729px;
+    background-image: url(https://previews.123rf.com/images/lublubachka/lublubachka1612/lublubachka161200088/68871469-hand-drawn-bakery-seamless-pattern-background-vector-pattern-for-cafe-designs.jpg);
+    background-size: 1000px 1000px;
+    opacity: 0.6;
+}

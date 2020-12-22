@@ -1,0 +1,29 @@
+#home-container{
+    width: 100%;
+    height: 729px;
+    z-index: -1;
+    position: relative;
+}
+
+#home-container>.home-background{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#home-title{
+    position: absolute;
+    left: 20.7%;
+    top:15%;
+}
+
+#home-title>h1{
+    font-size: 220px;
+    color: #221900;
+    text-shadow: 0 0 3px #fff;
+    /*top: 10%;*/
+}

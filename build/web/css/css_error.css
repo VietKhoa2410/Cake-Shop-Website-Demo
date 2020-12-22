@@ -1,0 +1,15 @@
+#error_login{
+    text-align: center;
+}
+#error_login>h1{
+    color: red;
+    font-size: 100px;
+}
+
+#error_login>h2{
+    font-size: 30px;
+}
+
+#error_login>a{
+    font-size: 25px;
+}

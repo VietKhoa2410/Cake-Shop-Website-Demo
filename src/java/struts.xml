@@ -1,0 +1,38 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="homePage" method="go" class="controller.ActionController">
+            <result>home.jsp</result>
+        </action>
+        <action name="loginPage" method="go" class="controller.ActionController">
+            <result>login.jsp</result>
+        </action>
+        <action name="myCakePage" method="go" class="controller.ActionController">
+            <result>my-cake.jsp</result>
+        </action>
+        <action name="findUsPage" method="go" class="controller.ActionController">
+            <result>find_us.jsp</result>
+        </action>
+        <action name="login" method="getRequest" class="controller.LoginController">
+            <result name="success">home.jsp</result>
+            <result name="false">login_error.jsp</result>
+        </action>
+        <action name="logout" method="logOut" class="controller.LoginController">
+            <result>home.jsp</result>
+        </action>
+        <action name="combo" method="go" class="controller.ActionController">
+            <result>combo.jsp</result>
+        </action>
+        <action name="item" method="go" class="controller.ActionController">
+            <result>item.jsp</result>
+        </action>
+        <action name="managerPage" method="managerPage" class="controller.ActionController">
+            <result name="success">manager.jsp</result>
+            <result name="false">home.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,43 @@
+#item-container {
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#item-container>.product>img {
+    width: 100%;
+    height: auto;
+}
+
+#item-container>.product>h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#item-container>.product>p {
+    text-align: center;
+    font-size: 24px;
+}
+
+#combo-list {
+    width: 100%;
+}
+
+.item-combo>a>img {
+    width: 100%;
+    height: auto;
+}
+
+.item-combo>h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.item-combo>p {
+    text-align: center;
+    font-size: 24px;
+}

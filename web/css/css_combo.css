@@ -1,0 +1,85 @@
+body{
+    background: #dfe6e9;
+    margin: 0;
+    padding: 0;
+}
+
+#combo-container{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+
+
+#combo-content{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    border-bottom: 1px black solid;
+
+}
+
+#combo-content>*{
+    /*display: inline;*/
+    width: 100%;
+    text-align: center;
+}
+
+#combo-content>img{
+    margin-left: 5%;
+    width: 100%;
+    height: auto;
+}
+
+#combo-content>h3{
+    font-size: 50px;
+}
+
+#combo-content>p{
+    font-size: 30px;
+}
+
+#combo-item>h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#combo-item>.product{
+    /*position: relative;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+#combo-item>.product>*{
+    /*    width: 70%;*/
+    height: auto;
+    text-align: center;
+
+}
+
+#combo-item>.product>a>img{
+    width: 100%;
+    /*margin-left: 10%;*/
+    margin-bottom: 3%;
+}
+
+#combo-item>.product>h3{
+    font-size: 40px;
+    /*line-height: 45px;*/
+    margin-bottom: 1%;
+}
+
+#combo-item>.product>p{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.percen{
+    color: red;
+}
